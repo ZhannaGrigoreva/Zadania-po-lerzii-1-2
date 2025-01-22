@@ -1,0 +1,5 @@
+a = int(input("Введите любое число: "))
+b = int(input("Введите меньшее число: "))
+x = (a / b)
+rounded_x = format(x, ".2f")
+print(x)
