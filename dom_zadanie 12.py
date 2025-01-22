@@ -1,12 +1,7 @@
-a = 3
-b = 4
-c = 5
+a, b, c = 2, 3, 4
 print(a, b, c)
-b = c
-a = (b - 1)
-c = (a - 1)
+a, b, c = b, c, a
 print(a, b, c)
-b = (a - 1)
-c = (b + 1)
-a = (c + 1)
+a, b, c = 2, 3, 4
+a, b, c = c, a, b
 print(a, b, c)
